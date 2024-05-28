@@ -37,6 +37,9 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 💬 Acknowledgements
 
 Tailwind CSS - Utility-first CSS framework
+
 JavaScript - Programming language for web development
+
+Visual Studio Code - Code editor used for development
 
 Feel free to further adapt this description to better suit your project's unique aspects and your personal style.
