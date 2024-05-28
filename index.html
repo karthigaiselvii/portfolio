@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">My Portfolio</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="#about" class="hover:bg-blue-300 rounded-full p-1">About</a>
+                <a href="#skills" class="hover:bg-blue-300 rounded-full p-1">Skills</a>
+                <a href="#projects" class="hover:bg-blue-300 rounded-full p-1">Projects</a>
+                <a href="#contact" class="hover:bg-blue-300 rounded-full p-1">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="burger" class="text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Side Navbar -->
+
+    <div id="sidenav" class="bg-blue-300 shadow-md fixed top-0 right-0 z-50" style="width: 50%; height: 100vh; right: -50%;">
+        <p class="cursor-pointer text-right p-2" id="closenav">X</p>
+            <div class="flex flex-col items-center gap-4">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+
+    <section id="hero"
+        class="bg-blue-300 text-white h-screen flex flex-col justify-center items-center text-center p-4">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Hello, I'm Karthigaiselvi</h1>
+        <p class="text-xl md:text-2xl mb-8">A Passionate Frontend Developer</p>
+        <a href="#projects" class="btn bg-white text-blue-300 py-2 px-4 rounded-full hover:bg-blue-100">View My Work</a>
+    </section>
+
+    <section id="about" class="container mx-auto p-8 text-center">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p class="text-sm mb-4">Hello! I’m Karthigaiselvi, a passionate frontend developer with experience in creating
+            dynamic and responsive websites. I love coding and constantly learning new technologies to improve my
+            skills.</p>
+    </section>
+
+    <section id="skills" class="bg-gray-200 p-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="skill m-4 p-6 bg-white rounded-lg shadow-md">
+                    <i class="fab fa-html5 text-4xl text-orange-600"></i>
+                    <p class="mt-2">HTML5</p>
+                </div>
+                <div class="skill m-4 p-6 bg-white rounded-lg shadow-md">
+                    <i class="fab fa-css3-alt text-4xl text-blue-600"></i>
+                    <p class="mt-2">CSS3</p>
+                </div>
+                <div class="skill m-4 p-6 bg-white rounded-lg shadow-md">
+                    <i class="fab fa-js text-4xl text-yellow-600"></i>
+                    <p class="mt-2">JavaScript</p>
+                </div>
+                <div class="skill m-4 p-6 bg-white rounded-lg shadow-md">
+                    <i class="fab fa-tailwindcss text-4xl text-teal-500"></i>
+                    <p class="mt-2">Tailwind CSS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container mx-auto p-8 text-center">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        <div class="flex flex-wrap justify-center">
+            <div class="project bg-white m-4 p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2"><a href="https://karthigaiselvii.github.io/Udemy/">Udemy Clone</a>
+                </h3>
+                <p class="mb-2 text-sm">The Udemy Clone Website project highlights my ability to develop a comprehensive and
+                    interactive web application using HTML5, CSS3, and JavaScript. It reflects my attention to detail,
+                    design skills, and proficiency in frontend web development technologies. This project serves as a
+                    testament to my capability to take on complex web development tasks and deliver high-quality
+                    results.</p>
+            </div>
+            <div class="project bg-white m-4 p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2"><a href="https://karthigaiselvii.github.io/Greenden/">Greenden</a>
+                </h3>
+                <p class="mb-2 text-sm">Greenden is a modern and user-friendly plant selling website designed to provide a
+                    seamless online shopping experience for plant enthusiasts. This project showcases my proficiency in
+                    using Tailwind CSS for responsive and aesthetically pleasing design, and JavaScript for dynamic
+                    interactivity and enhanced user experience.</p>
+            </div>
+            <!-- <div class="project bg-white m-4 p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                <p class="mb-2">Short description of Project 3.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-200 p-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <form class="mx-auto max-w-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-left mb-2">Name:</label>
+                    <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded focus:outline-none">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left mb-2">Email:</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full p-2 border border-gray-300 rounded focus:outline-none">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-left mb-2">Message:</label>
+                    <textarea id="message" name="message" required
+                        class="w-full p-2 border border-gray-300 rounded focus:outline-none"></textarea>
+                </div>
+                <button type="submit"
+                    class="btn bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <footer class="bg-white shadow-md p-4 text-center">
+        <div class="social-links mb-4">
+            <a href="https://github.com/karthigaiselvii" target="_blank" class="text-gray-800 mx-2"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/karthigai-selvii/" target="_blank" class="text-gray-800 mx-2"><i
+                    class="fab fa-linkedin"></i></a>
+
+        </div>
+        <p>&copy; 2024 Karthigaiselvi. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
