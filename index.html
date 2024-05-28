@@ -35,22 +35,29 @@
 
     <!-- Side Navbar -->
 
-    <div id="sidenav" class="bg-blue-300 shadow-md fixed top-0 right-0 z-50" style="width: 50%; height: 100vh; right: -50%;">
+    <div id="sidenav" class="bg-blue-300 shadow-md fixed top-0 right-0 z-50"
+        style="width: 50%; height: 100vh; right: -50%;">
         <p class="cursor-pointer text-right p-2" id="closenav">X</p>
-            <div class="flex flex-col items-center gap-4">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
+        <div class="flex flex-col items-center gap-4">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
+    </div>
 
 
     <section id="hero"
-        class="bg-blue-300 text-white h-screen flex flex-col justify-center items-center text-center p-4">
+        class="bg-blue-300 text-white h-screen flex flex-col justify-center items-center text-center p-4 relative">
         <h1 class="text-4xl md:text-6xl font-bold mb-4">Hello, I'm Karthigaiselvi</h1>
         <p class="text-xl md:text-2xl mb-8">A Passionate Frontend Developer</p>
         <a href="#projects" class="btn bg-white text-blue-300 py-2 px-4 rounded-full hover:bg-blue-100">View My Work</a>
+    </section>
+
+    <section class="border border-blue-300 text-center rounded-full absolute top-36 p-2 m-2 animate-bounce bg-white" style="width: 30%;">
+        <h2 class="font-bold">Contact Me</h2>
+        <p class="text-sm">Feel free to reach out for collaborations or just a friendly chat.</p>
+        <p class="text-sm"><i class="fa-solid fa-envelope"></i> infokarthiga@gmail.com</p>
     </section>
 
     <section id="about" class="container mx-auto p-8 text-center">
@@ -90,7 +97,8 @@
             <div class="project bg-white m-4 p-4 rounded-lg shadow-md">
                 <h3 class="text-xl font-bold mb-2"><a href="https://karthigaiselvii.github.io/Udemy/">Udemy Clone</a>
                 </h3>
-                <p class="mb-2 text-sm">The Udemy Clone Website project highlights my ability to develop a comprehensive and
+                <p class="mb-2 text-sm">The Udemy Clone Website project highlights my ability to develop a comprehensive
+                    and
                     interactive web application using HTML5, CSS3, and JavaScript. It reflects my attention to detail,
                     design skills, and proficiency in frontend web development technologies. This project serves as a
                     testament to my capability to take on complex web development tasks and deliver high-quality
@@ -99,7 +107,8 @@
             <div class="project bg-white m-4 p-4 rounded-lg shadow-md">
                 <h3 class="text-xl font-bold mb-2"><a href="https://karthigaiselvii.github.io/Greenden/">Greenden</a>
                 </h3>
-                <p class="mb-2 text-sm">Greenden is a modern and user-friendly plant selling website designed to provide a
+                <p class="mb-2 text-sm">Greenden is a modern and user-friendly plant selling website designed to provide
+                    a
                     seamless online shopping experience for plant enthusiasts. This project showcases my proficiency in
                     using Tailwind CSS for responsive and aesthetically pleasing design, and JavaScript for dynamic
                     interactivity and enhanced user experience.</p>
@@ -117,7 +126,8 @@
             <form class="mx-auto max-w-md">
                 <div class="mb-4">
                     <label for="name" class="block text-left mb-2">Name:</label>
-                    <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded focus:outline-none">
+                    <input type="text" id="name" name="name" required
+                        class="w-full p-2 border border-gray-300 rounded focus:outline-none">
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-left mb-2">Email:</label>
