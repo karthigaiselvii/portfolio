@@ -10,7 +10,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Custom Animation
+/* Custom Animation */
 .zoom{
     animation-name: zoom;
     animation-duration: 2s;
@@ -28,7 +28,7 @@ body {
         opacity: 1;
     }
     
-} */
+}
 
 #skills .skill:hover, .project:hover {
     transform: scale(1.05);
